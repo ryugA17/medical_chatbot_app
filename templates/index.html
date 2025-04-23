@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Symptom Analyzer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-heartbeat"></i>
+                <h1>Medical Symptom Analyzer</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="active"><a href="#" data-section="chatbot"><i class="fas fa-comment-medical"></i> Symptom Analyzer</a></li>
+                    <li><a href="#" data-section="doctors"><i class="fas fa-user-md"></i> Our Doctors</a></li>
+                    <li><a href="#" data-section="about"><i class="fas fa-info-circle"></i> About</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Chatbot Section -->
+            <section id="chatbot" class="section active">
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <i class="fas fa-robot"></i>
+                        <h2>Medical Assistant</h2>
+                    </div>
+                    <div class="chat-messages" id="chat-messages">
+                        <div class="message bot">
+                            <div class="message-content">
+                                <p>Hello! I'm your medical assistant. Please describe your symptoms, and I'll try to provide some information and recommend specialists.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-input">
+                        <textarea id="symptom-input" placeholder="Describe your symptoms here..." rows="3"></textarea>
+                        <button id="send-btn" class="send-btn">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Doctors Section -->
+            <section id="doctors" class="section">
+                <div class="doctors-container">
+                    <div class="doctors-header">
+                        <h2>Our Medical Specialists</h2>
+                        <p>Find the right medical specialist for your needs. Search by name, specialty, or browse our complete directory of qualified healthcare professionals.</p>
+                    </div>
+                    <div class="search-filters">
+                        <div class="search-box">
+                            <i class="fas fa-search"></i>
+                            <input type="text" id="doctor-search" placeholder="Search by name or specialty...">
+                            <button id="search-btn"><i class="fas fa-arrow-right"></i> Search</button>
+                        </div>
+                        <div class="filter-box">
+                            <select id="specialty-filter">
+                                <option value="All Specialties">All Specialties</option>
+                                <!-- Will be populated dynamically -->
+                            </select>
+                        </div>
+                    </div>
+                    <div class="doctors-list" id="doctors-list">
+                        <!-- Will be populated dynamically -->
+                        <div class="loading">Loading doctors...</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="section">
+                <div class="about-container">
+                    <h2>About Medical Symptom Analyzer</h2>
+                    <div class="about-content">
+                        <p>The Medical Symptom Analyzer is an AI-powered application designed to help you understand your symptoms and connect you with appropriate healthcare professionals. Our advanced AI uses medical knowledge to analyze your symptoms and provide preliminary insights.</p>
+                        
+                        <div class="disclaimer">
+                            <h3>Important Disclaimer</h3>
+                            <p>This application is for informational purposes only and is not intended to replace professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.</p>
+                            <p>In case of emergency, call your local emergency services immediately.</p>
+                        </div>
+                        
+                        <div class="features">
+                            <h3>Features</h3>
+                            <ul>
+                                <li>Symptom analysis and possible condition identification</li>
+                                <li>Specialist recommendation based on symptoms</li>
+                                <li>Searchable database of healthcare professionals</li>
+                                <li>General health information and advice</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Medical Symptom Analyzer | <a href="#"><i class="fas fa-shield-alt"></i> Privacy Policy</a> | <a href="#"><i class="fas fa-file-contract"></i> Terms of Service</a></p>
+        </footer>
+    </div>
+
+    <!-- Templates for dynamic content -->
+    <template id="doctor-card-template">
+        <div class="doctor-card">
+            <div class="doctor-info">
+                <h3 class="doctor-name"></h3>
+                <p class="doctor-specialization"><i class="fas fa-stethoscope"></i> <span></span></p>
+                <p class="doctor-experience"><i class="fas fa-clock"></i> <span></span></p>
+                <p class="doctor-contact"><i class="fas fa-phone-alt"></i> <span></span></p>
+                <div class="doctor-rating"></div>
+            </div>
+            <div class="doctor-actions">
+                <button class="book-btn"><i class="fas fa-calendar-check"></i> Book Appointment</button>
+            </div>
+        </div>
+    </template>
+
+    <template id="condition-template">
+        <div class="condition-card">
+            <div class="condition-header">
+                <h3 class="condition-name"></h3>
+                <span class="condition-likelihood"></span>
+            </div>
+            <div class="condition-body">
+                <p class="condition-description"></p>
+                <p class="condition-treatment"><strong>General Treatment:</strong> <span></span></p>
+                <p class="condition-specialist"><strong>Recommended Specialist:</strong> <span></span></p>
+            </div>
+        </div>
+    </template>
+
+    <template id="recommended-doctors-template">
+        <div class="recommended-doctors">
+            <h3>Recommended Doctors</h3>
+            <div class="doctors-grid"></div>
+        </div>
+    </template>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html> 

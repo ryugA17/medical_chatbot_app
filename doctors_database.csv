@@ -1,0 +1,26 @@
+name,specialization,experience,contact,address,hospital,availability,languages,education,rating
+Dr. Alice Johnson,Cardiology,15 years,555-0123,"123 Heart Ave, Medical City","Central Hospital",Mon-Fri 9AM-5PM,"English, Spanish","Harvard Medical School, Johns Hopkins Fellowship",4.9
+Dr. Robert Smith,Neurology,12 years,555-0124,"456 Brain St, Neural Heights","Neuroscience Center",Mon-Thu 8AM-4PM,"English, French","Stanford University, Mayo Clinic Residency",4.7
+Dr. Emily Chen,Dermatology,10 years,555-0125,"789 Skin Lane, Derm District","Dermatology Institute",Tue-Sat 10AM-6PM,"English, Mandarin, Cantonese","UCLA Medical Center, NYU Residency",4.8
+Dr. Michael Rodriguez,Orthopedics,20 years,555-0126,"101 Bone Blvd, Joint Junction","Orthopedic Specialists",Mon-Wed & Fri 8AM-6PM,"English, Spanish","Johns Hopkins, Harvard Orthopedic Fellowship",4.9
+Dr. Sarah Williams,Gastroenterology,8 years,555-0127,"202 Digestive Drive, GI Gardens","Digestive Health Center",Wed-Sun 9AM-5PM,"English, German","Duke University, Cleveland Clinic Fellowship",4.6
+Dr. James Wilson,Pulmonology,14 years,555-0128,"303 Lung Lane, Respiratory Ridge","Pulmonary Center",Mon-Fri 7AM-3PM,"English","University of Pennsylvania, Mayo Clinic Residency",4.8
+Dr. Lisa Brown,Endocrinology,11 years,555-0129,"404 Hormone Highway, Endo Estates","Endocrine Institute",Tue-Sat 8AM-4PM,"English, Italian","Columbia University, UCSF Fellowship",4.7
+Dr. Mark Davis,Psychiatry,9 years,555-0130,"505 Mind Meadow, Psych Park","Mental Health Associates",Mon & Wed-Fri 10AM-7PM,"English, Portuguese","Yale University, NYU Psychiatric Institute",4.5
+Dr. Nancy Lee,Ophthalmology,16 years,555-0131,"606 Vision Valley, Eye Estates","Vision Center",Mon-Thu 8AM-5PM,"English, Korean, Japanese","Johns Hopkins, Bascom Palmer Eye Institute",4.9
+Dr. Thomas Martin,ENT,13 years,555-0132,"707 Ear Avenue, Throat Terrace","ENT Specialists",Tue-Sat 9AM-6PM,"English, French","Washington University, Mass Eye & Ear Fellowship",4.7
+Dr. Jennifer Garcia,General Practice,8 years,555-0133,"808 Health Highway, Wellness Way","Community Medical Center",Mon-Fri 8AM-8PM,"English, Spanish","Stanford University, UCSF Residency",4.8
+Dr. William Thompson,Urology,18 years,555-0134,"909 Urinary Upland, Bladder Boulevard","Urology Associates",Mon-Wed & Fri 7AM-4PM,"English","Harvard Medical School, Cleveland Clinic Fellowship",4.6
+Dr. Amanda Patel,Pediatrics,14 years,555-0135,"111 Child Circle, Kid's Corner","Children's Hospital",Mon-Fri 8AM-6PM,"English, Hindi, Gujarati","University of Chicago, Boston Children's Hospital",4.9
+Dr. Daniel Kim,Rheumatology,11 years,555-0136,"222 Joint Junction, Arthritis Avenue","Rheumatology Center",Tue-Sat 9AM-5PM,"English, Korean","Duke University, Mayo Clinic Fellowship",4.7
+Dr. Rebecca Johnson,OB/GYN,15 years,555-0137,"333 Women's Way, OB Avenue","Women's Health Center",Mon-Thu 8AM-7PM,"English, Spanish","Yale University, UCLA Residency",4.8
+Dr. Christopher Lee,Oncology,22 years,555-0138,"444 Cancer Court, Treatment Trail","Cancer Research Hospital",Mon-Fri 7AM-5PM,"English, Mandarin","Harvard Medical School, MD Anderson Fellowship",4.9
+Dr. Elizabeth White,Allergy & Immunology,9 years,555-0139,"555 Allergy Alley, Immune Island","Allergy Associates",Wed-Sun 8AM-4PM,"English, German","Stanford University, National Jewish Health",4.6
+Dr. Samuel Rodriguez,Cardiothoracic Surgery,25 years,555-0140,"666 Heart Highway, Chest Circle","Cardiothoracic Institute",Mon-Thu 6AM-5PM,"English, Spanish","Johns Hopkins, Cleveland Clinic Fellowship",4.9
+Dr. Olivia Martin,Dermatopathology,13 years,555-0141,"777 Skin Street, Pathology Place","Dermatopathology Lab",Tue-Sat 9AM-6PM,"English, French","University of Pennsylvania, NYU Fellowship",4.7
+Dr. Andrew Wilson,Hematology,16 years,555-0142,"888 Blood Boulevard, Hema Heights","Hematology Associates",Mon-Wed & Fri 8AM-5PM,"English, Italian","Columbia University, Mayo Clinic Fellowship",4.8
+Dr. Sophia Chen,Nephrology,12 years,555-0143,"999 Kidney Court, Renal Road","Kidney Institute",Mon-Fri 7AM-4PM,"English, Mandarin, Cantonese","UCLA Medical School, UCSF Fellowship",4.7
+Dr. David Park,Infectious Disease,17 years,555-0144,"123 Infection Inlet, Bacterial Boulevard","Infectious Disease Center",Tue-Sat 8AM-6PM,"English, Korean","Harvard Medical School, Johns Hopkins Residency",4.8
+Dr. Jessica Brown,Neurosurgery,19 years,555-0145,"456 Neural North, Brain Boulevard","Neurosurgery Institute",Mon-Thu 6AM-5PM,"English, Spanish","Stanford University, Mayo Clinic Fellowship",4.9
+Dr. Kevin Johnson,Sports Medicine,11 years,555-0146,"789 Athletic Avenue, Sports Street","Sports Medicine Center",Mon-Wed & Fri 7AM-7PM,"English, Portuguese","Duke University, Andrews Institute Fellowship",4.7
+Dr. Michelle Thompson,Geriatrics,14 years,555-0147,"101 Elder Estate, Senior Street","Geriatric Care Center",Mon-Fri 8AM-4PM,"English, French","Yale University, Mount Sinai Fellowship",4.8
